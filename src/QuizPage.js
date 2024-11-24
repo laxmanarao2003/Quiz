@@ -81,7 +81,7 @@ function QuizPage(props) {
             clearInterval(countInterval)
         }
 
-    },[])
+    })
 
     // Fetch the API data using axios and asynchronous method :)
     const fetchApi=async()=>{
@@ -111,7 +111,7 @@ function QuizPage(props) {
             *   seconds<10 -> minutes>9 & minutes<10
             *   seconds>10 -> minutes>9 & minutes<10
             */
-            countDownEle.textContent=(seconds<10)?   
+            countDownEle.textContent=(seconds<10)?
                                                 ((minutes>9)? minutes+":0"+seconds   :   "0"+minutes+":0"+seconds )  
                                                 :   
                                                 (minutes>9)? minutes+":"+seconds   :   "0"+minutes+":"+seconds

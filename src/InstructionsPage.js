@@ -112,7 +112,7 @@ function InstructionsPage() {
 								<option>Kubernetes</option>
 								<option>Docker</option>
 							</select>
-							<label htmlFor='languages'>Select One Option</label>
+							<label htmlFor='languages'>Choose your Language</label>
 						</div>
 						<div className="form-floating mt-4 col-xl-5 col-lg-5 col-7 col-md-8">
 							<input 

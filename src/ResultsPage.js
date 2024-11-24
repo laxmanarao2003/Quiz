@@ -25,7 +25,7 @@ function ResultsPage(props) {
 
         setTimeDate()
 
-    },[])
+    })
 
     // display date & time :)
     const setTimeDate=()=>{
@@ -69,7 +69,7 @@ function ResultsPage(props) {
 
                         {/* Quiz restart */}
                         <div className='mt-4'>
-                            <a href='' className='btn btn-primary rounded rounded-5 px-4 py-2 mx-2 my-1'>Restart<i className="fa-solid fa-rotate ms-2"></i></a>
+                            <a href='https://laxmanarao2003.github.io/Quiz/' className='btn btn-primary rounded rounded-5 px-4 py-2 mx-2 my-1'>Restart<i className="fa-solid fa-rotate ms-2"></i></a>
                             <button onClick={downloadResults} className='btn btn-primary rounded rounded-5 px-4 py-2 mx-2 my-1'>Download<i className="fa-solid fa-download ms-2"></i></button>
                         </div>
 

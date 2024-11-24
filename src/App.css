@@ -18,7 +18,7 @@ li{
 
 #onlinequiz{
 	-webkit-text-stroke-color: rgba(226, 10, 10, 0.733);
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 2px;
 	font-weight: bolder;
 	text-shadow:2px 2px 4px rgba(255, 0, 0, 0.7),
 				2px 2px 5px rgb(0, 8, 255);

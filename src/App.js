@@ -38,7 +38,7 @@ function App() {
 			<div className='bg-dark' id='bgImage'>
 				<div className='text-center text-light' id='welcomeTitle'>
 					<h1 className='display-3' id='onlinequiz'>Online Quizz</h1>
-					<h6 className='text-wrap'>Quick Quiz knowledge Booster for a Perfect Level Up</h6>
+					<h6 className='text-wrap py-1'>Quick Quiz knowledge Booster for a Perfect Level Up</h6>
 					<hr className='text-light'></hr>
 					<h1 className='display-5' id='welcome'>Welcome!</h1>
 					<button 
