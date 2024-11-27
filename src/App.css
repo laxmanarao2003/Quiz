@@ -1,0 +1,106 @@
+/* body{
+	font-family: 'Times New Roman', Times, serif;
+} */
+
+#borderEle{
+	user-select: none;
+}
+
+li{
+	letter-spacing: 0.1px;
+}
+
+/* APP.js */
+
+#welcomeTitle{
+	transform: translate(0%,60%);
+}
+
+#onlinequiz{
+	-webkit-text-stroke-color: rgba(226, 10, 10, 0.733);
+	-webkit-text-stroke-width: 2px;
+	font-weight: bolder;
+	text-shadow:2px 2px 4px rgba(255, 0, 0, 0.7),
+				2px 2px 5px rgb(0, 8, 255);
+}
+
+#welcome{
+	font-weight: 400;
+	-webkit-text-stroke-color: rgba(0, 0, 0, 0.902);
+	-webkit-text-stroke-width: 1px;
+}
+
+/* APP.js */
+
+/* QUIZPAGE.js */
+
+i[title='instructions']{
+	cursor: pointer;
+}
+
+.sticky-top{
+	/* linear-gradient(to right,rgb(0, 217, 255), rgb(30, 83, 198), rgb(55, 128, 0)); */
+	/* background-color: #28a745; */
+	background-image: linear-gradient(to right,rgb(0, 217, 255), rgba(211, 211, 19, 0.975), green);
+	border-radius: 5px;
+	cursor: context-menu;
+}
+
+#title {
+	border: 1px solid #000;
+	border-top:9px solid #28a745;
+	border-radius: 13px;
+	cursor: pointer;
+}
+
+#borderEle{
+	border: 1px solid #000;
+	/* box-shadow: 4px 4px 5px red, 1px 1px 3px red; */
+}
+
+input[name='options']{
+	border: 1px solid #f00;
+}
+
+input[name='options']:checked{
+	background-color: #28a745;
+}
+
+sup{
+	color: #f00;
+}
+
+.optionParent{
+	border: 0.1px solid rgb(0, 55, 255);
+	box-shadow: 2px 2px 6px rgb(0, 55, 255);
+}
+
+.question,.option{
+	font-size:110%;
+}
+
+#countDown{
+	letter-spacing: 1.3px;
+}
+
+#scrollToTop{
+	display: none;
+}
+
+/* QUIZPAGE.js */
+
+
+/* ResultsPage.js */
+
+#resultsBg{
+	height: 610px;
+	border: 14px solid rgba(61, 52, 52, 0.285);
+}
+
+#passingMarks,#startDate,#endDate,#status{
+	border: 1px solid black;
+	border-radius: 9px;
+	border-top: 9px solid #28a745;
+}
+
+/* ResultsPage.js */
